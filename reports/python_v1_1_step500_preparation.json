@@ -1,0 +1,75 @@
+{
+  "report_type": "python_step500_preparation",
+  "project_version": "1.1.0",
+  "training_started": false,
+  "generation_evaluated": false,
+  "planned_experiment": {
+    "start_from_scratch": true,
+    "resume": null,
+    "architecture_changes": false,
+    "existing_cli": "scripts/train.py",
+    "files_option": "--files FILES [FILES ...]",
+    "counts": {
+      "train": 320,
+      "validation": 40,
+      "test": 40
+    },
+    "files_passed_to_training_cli": 360,
+    "test_files_passed_to_training_cli": 0,
+    "checkpoint": "M:\\Apps\\minimodel\\MiniCoderBrain\\checkpoints\\python_v1_1_step500.pt",
+    "training": {
+      "max_steps": 500,
+      "batch_size": 2,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.01,
+      "max_grad_norm": 1.0,
+      "eval_interval": 50,
+      "seed": 42,
+      "cpu_threads": 4
+    },
+    "sequence_length": 128,
+    "corpus_sha256": "d390b25b0c6ef33a295ed1cac615c31520b75d37af9d88524ff0525af438371a",
+    "note": "فهرست صریح در حافظه به parser همان train.py داده می‌شود؛ آموزش در dry-run آغاز نمی‌شود."
+  },
+  "expected_validation_steps": [
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500
+  ],
+  "metric_history": {
+    "already_supported": true,
+    "storage": "checkpoint.history",
+    "format": "PyTorch checkpoint; weights_only=True CPU loader",
+    "json_serializable": true,
+    "saved_at": "successful_run_end",
+    "separate_live_metric_file": false,
+    "smoke_checkpoint_records_verified": 5
+  },
+  "preservation": {
+    "protected_files": 420,
+    "changed_files": [],
+    "smoke_checkpoint_sha256": "f3e5a3d2336a5e217ad0da968698004f6a18ef9f3d2ceba6efcd5a3348a9d9a6",
+    "step500_checkpoint_exists": false
+  },
+  "automated_tests": {
+    "tests": 26,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 26,
+    "source": "python_v1_1_step500_relevant_tests.xml"
+  },
+  "full_suite_rerun": false,
+  "runtime_source_changes": [],
+  "limitations": [
+    "تاریخچه و checkpoint فقط در پایان موفق ذخیره می‌شوند؛ ثبت زندهٔ جداگانه وجود ندارد.",
+    "هیچ نتیجهٔ آموزش یا کیفیت تولید برای اجرای ۵۰۰گامی وجود ندارد."
+  ]
+}

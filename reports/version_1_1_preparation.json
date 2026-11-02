@@ -1,0 +1,118 @@
+{
+  "project_version": "1.1.0",
+  "report_type": "python_corpus_preparation",
+  "python_version": "3.11.0",
+  "interpreter": "M:\\Apps\\minimodel\\MiniCoderBrain\\.venv\\Scripts\\python.exe",
+  "quality": {
+    "valid": true,
+    "issues": {
+      "exact_duplicates": [],
+      "whitespace_duplicates": [],
+      "structural_leakage": [],
+      "family_leakage": [],
+      "excessive_structural_reuse": []
+    },
+    "counts": {
+      "train": 320,
+      "validation": 40,
+      "test": 40
+    },
+    "topics": {
+      "train": {
+        "variables_arithmetic": 32,
+        "functions": 32,
+        "conditions": 32,
+        "for_loops": 32,
+        "while_loops": 32,
+        "lists_dictionaries": 32,
+        "strings": 32,
+        "classes": 32,
+        "algorithms": 32,
+        "exercises": 32
+      },
+      "validation": {
+        "variables_arithmetic": 4,
+        "functions": 4,
+        "conditions": 4,
+        "for_loops": 4,
+        "while_loops": 4,
+        "lists_dictionaries": 4,
+        "strings": 4,
+        "classes": 4,
+        "algorithms": 4,
+        "exercises": 4
+      },
+      "test": {
+        "variables_arithmetic": 4,
+        "functions": 4,
+        "conditions": 4,
+        "for_loops": 4,
+        "while_loops": 4,
+        "lists_dictionaries": 4,
+        "strings": 4,
+        "classes": 4,
+        "algorithms": 4,
+        "exercises": 4
+      }
+    },
+    "structural_families": 120,
+    "max_structural_copies": 4,
+    "families_by_split": {
+      "train": 80,
+      "validation": 20,
+      "test": 20
+    },
+    "min_utf8_bytes": 13,
+    "max_utf8_bytes": 103,
+    "corpus_version": "1.1.0",
+    "seed": 1101,
+    "file_errors": [],
+    "declared_examples": 400,
+    "syntax_checked": 400,
+    "corpus_sha256": "d390b25b0c6ef33a295ed1cac615c31520b75d37af9d88524ff0525af438371a",
+    "interpretation": "ساختارهای AST مشترک بین بخش‌ها ممنوع‌اند؛ این بررسی اثبات هم‌ارزی معنایی یا کیفیت مدل نیست."
+  },
+  "planned_experiment": {
+    "start_from_scratch": true,
+    "resume": null,
+    "architecture_changes": false,
+    "existing_cli": "scripts/train.py",
+    "files_option": "--files FILES [FILES ...]",
+    "counts": {
+      "train": 320,
+      "validation": 40,
+      "test": 40
+    },
+    "files_passed_to_training_cli": 360,
+    "test_files_passed_to_training_cli": 0,
+    "checkpoint": "M:\\Apps\\minimodel\\MiniCoderBrain\\checkpoints\\python_v1_1_step5.pt",
+    "training": {
+      "max_steps": 5,
+      "batch_size": 2,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.01,
+      "max_grad_norm": 1.0,
+      "eval_interval": 5,
+      "seed": 42,
+      "cpu_threads": 2
+    },
+    "sequence_length": 128,
+    "corpus_sha256": "d390b25b0c6ef33a295ed1cac615c31520b75d37af9d88524ff0525af438371a",
+    "note": "فهرست صریح در حافظه به parser همان train.py داده می‌شود؛ آموزش در dry-run آغاز نمی‌شود."
+  },
+  "training_started": false,
+  "checkpoint_created": false,
+  "generation_evaluated": false,
+  "training_loss": null,
+  "validation_loss": null,
+  "perplexity": null,
+  "automated_tests": {
+    "tests": 281,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 281,
+    "source": "version_1_1_tests.xml"
+  },
+  "note": "این گزارش آماده‌سازی داده و آزمون نرم‌افزار است؛ آموزش تازه یا ارزیابی کیفیت مدل آغاز نشده است."
+}

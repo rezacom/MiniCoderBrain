@@ -1,0 +1,69 @@
+{
+  "corpus_sha256": "d390b25b0c6ef33a295ed1cac615c31520b75d37af9d88524ff0525af438371a",
+  "corpus_version": "1.1.0",
+  "counts": {
+    "test": 40,
+    "train": 320,
+    "validation": 40
+  },
+  "declared_examples": 400,
+  "families_by_split": {
+    "test": 20,
+    "train": 80,
+    "validation": 20
+  },
+  "file_errors": [],
+  "interpretation": "ساختارهای AST مشترک بین بخش‌ها ممنوع‌اند؛ این بررسی اثبات هم‌ارزی معنایی یا کیفیت مدل نیست.",
+  "issues": {
+    "exact_duplicates": [],
+    "excessive_structural_reuse": [],
+    "family_leakage": [],
+    "structural_leakage": [],
+    "whitespace_duplicates": []
+  },
+  "max_structural_copies": 4,
+  "max_utf8_bytes": 103,
+  "min_utf8_bytes": 13,
+  "seed": 1101,
+  "structural_families": 120,
+  "syntax_checked": 400,
+  "topics": {
+    "test": {
+      "algorithms": 4,
+      "classes": 4,
+      "conditions": 4,
+      "exercises": 4,
+      "for_loops": 4,
+      "functions": 4,
+      "lists_dictionaries": 4,
+      "strings": 4,
+      "variables_arithmetic": 4,
+      "while_loops": 4
+    },
+    "train": {
+      "algorithms": 32,
+      "classes": 32,
+      "conditions": 32,
+      "exercises": 32,
+      "for_loops": 32,
+      "functions": 32,
+      "lists_dictionaries": 32,
+      "strings": 32,
+      "variables_arithmetic": 32,
+      "while_loops": 32
+    },
+    "validation": {
+      "algorithms": 4,
+      "classes": 4,
+      "conditions": 4,
+      "exercises": 4,
+      "for_loops": 4,
+      "functions": 4,
+      "lists_dictionaries": 4,
+      "strings": 4,
+      "variables_arithmetic": 4,
+      "while_loops": 4
+    }
+  },
+  "valid": true
+}
